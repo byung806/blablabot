@@ -6,34 +6,28 @@ TOKEN = "NzQ1MDEwNDMyNDY0NjUwNDA4.XzrjCA.vl44UbFBfvq5uFQbi9rVpiFiIMk" #blablabot
 bot = commands.Bot(command_prefix='bla ', case_insensitive=True)
 bot.remove_command('help')
 
-"""def get_prefix(bot, message):
-    prefixes = ['>?', 'lol ', '!?']
-    if not message.guild:
-        return 'bla '
-    return commands.when_mentioned_or(*prefixes)(bot, message)"""
-
 initial_extensions = [
     'cogs.funCommands.simprate',
     'cogs.gameCommands.coinflip',
     'cogs.memberCommands.joindate',
     'cogs.memberCommands.perms',
     'cogs.memberCommands.toprole',
-    'cogs.miscCommands.calculate',
+    #'cogs.miscCommands.calculate',
     'cogs.miscCommands.choose',
-    'cogs.miscCommands.halloween',
-    'cogs.miscCommands.saves',
-    'cogs.modCommands.ban',
-    'cogs.modCommands.kick',
-    'cogs.modCommands.mute',
-    'cogs.modCommands.unban',
-    'cogs.modCommands.unmute',
-    'cogs.modCommands.warn',
+    #'cogs.miscCommands.halloween',
+    #'cogs.miscCommands.saves',
+    #'cogs.modCommands.ban',
+    #'cogs.modCommands.kick',
+    #'cogs.modCommands.mute',
+    #'cogs.modCommands.unban',
+    #'cogs.modCommands.unmute',
+    #'cogs.modCommands.warn',
     'cogs.textCommands.emojify',
-    'cogs.utilityCommands.eval',
-    'cogs.utilityCommands.minecraft',
-    'cogs.utilityCommands.ocr',
-    'cogs.utilityCommands.pass_maker',
-    'cogs.utilityCommands.random_num',
+    #'cogs.utilityCommands.eval',
+    #'cogs.utilityCommands.minecraft',
+    #'cogs.utilityCommands.ocr',
+    #'cogs.utilityCommands.pass_maker',
+    #'cogs.utilityCommands.random_num',
 ]
 
 for extension in initial_extensions:

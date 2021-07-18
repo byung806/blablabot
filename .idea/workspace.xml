@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
+    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="Removed all database stuff in bot.py and made all file paths relative">
       <change afterPath="$PROJECT_DIR$/bfg-1.14.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blablabot.git/HEAD" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blablabot.git/config" afterDir="false" />
