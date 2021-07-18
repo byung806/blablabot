@@ -14,7 +14,7 @@ initial_extensions = [
     'cogs.memberCommands.toprole',
     #'cogs.miscCommands.calculate',
     'cogs.miscCommands.choose',
-    #'cogs.miscCommands.halloween',
+    'cogs.miscCommands.halloween',
     #'cogs.miscCommands.saves',
     #'cogs.modCommands.ban',
     #'cogs.modCommands.kick',
@@ -24,10 +24,10 @@ initial_extensions = [
     #'cogs.modCommands.warn',
     'cogs.textCommands.emojify',
     #'cogs.utilityCommands.eval',
-    #'cogs.utilityCommands.minecraft',
+    'cogs.utilityCommands.minecraft',
     #'cogs.utilityCommands.ocr',
-    #'cogs.utilityCommands.pass_maker',
-    #'cogs.utilityCommands.random_num',
+    'cogs.utilityCommands.pass_maker',
+    'cogs.utilityCommands.random_num',
 ]
 
 for extension in initial_extensions:
