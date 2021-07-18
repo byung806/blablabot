@@ -24,8 +24,8 @@ initial_extensions = [
     #'cogs.modCommands.warn',
     'cogs.textCommands.emojify',
     #'cogs.utilityCommands.eval',
-    'cogs.utilityCommands.minecraft',
-    #'cogs.utilityCommands.ocr',
+    #'cogs.utilityCommands.minecraft',
+    'cogs.utilityCommands.ocr',
     'cogs.utilityCommands.pass_maker',
     'cogs.utilityCommands.random_num',
 ]

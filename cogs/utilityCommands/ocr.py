@@ -1,4 +1,5 @@
 import discord
+import os
 import pytesseract
 import cv2
 import numpy as np
@@ -6,7 +7,7 @@ from discord.ext import commands
 from PIL import Image
 from io import BytesIO
 
-pytesseract.pytesseract.tesseract_cmd = r"cogs\utilityCommands\tesseract\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 class Ocr(commands.Cog):
     def __init__(self, bot):
@@ -62,6 +63,7 @@ class Ocr(commands.Cog):
 
     @ocr.error
     async def ocr_error(self, ctx, error):
+        raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
                 description='You need to attach an image.'
