@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626646544629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed to ctx.message.author.avatar_url instead of ctx.author.avatar_url">
+      <created>1626704057643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626704057643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +149,7 @@
     <MESSAGE value="Test #2" />
     <MESSAGE value="Added libgl1-mesa-glx to Aptfile" />
     <MESSAGE value="Added dumb comma I missed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dumb comma I missed" />
+    <MESSAGE value="Changed to ctx.message.author.avatar_url instead of ctx.author.avatar_url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to ctx.message.author.avatar_url instead of ctx.author.avatar_url" />
   </component>
 </project>

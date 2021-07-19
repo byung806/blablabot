@@ -56,9 +56,9 @@ class Ocr(commands.Cog):
                 if char in text.lower():
                     is_text = True
             if is_text:
-                embed.set_author(name='Detected text', icon_url=ctx.message.author.avatar_url)
+                embed.set_author(name='Detected text', icon_url=ctx.author.avatar_url)
             else:
-                embed.set_author(name='No text detected', icon_url=ctx.message.author.avatar_url)
+                embed.set_author(name='No text detected', icon_url=ctx.author.avatar_url)
             await ctx.message.channel.send(embed=embed)
 
     @ocr.error

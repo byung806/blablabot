@@ -1,6 +1,6 @@
 mysql-connector-python==8.0.21
 discord
-git+https://github.com/Rapptz/discord.py
+discord.py==1.7.3
 Pillow
 numpy==1.21.0
 async-timeout==3.0.1
