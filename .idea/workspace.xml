@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="" />
+    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626890856293</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added back solid_blocks folder">
+      <created>1626891055536</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626891055536</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +220,7 @@
     <MESSAGE value="now raises error in minecraft.py" />
     <MESSAGE value="added os.listdir in error handling" />
     <MESSAGE value="removed solid_blocks folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed solid_blocks folder" />
+    <MESSAGE value="added back solid_blocks folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added back solid_blocks folder" />
   </component>
 </project>
