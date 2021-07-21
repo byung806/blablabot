@@ -20,7 +20,10 @@ class Minecraft(commands.Cog):
 
     def get_closest_block(self, rgba, colors, type):
         distances = np.sqrt(np.sum((colors - rgba) ** 2, axis=1))
-        return eval(f'{type.upper()}_BLOCKS_MC_MAPPING[tuple(colors[np.where(distances == min(distances))][0])]')
+        if type == 'all':
+            return ALL_BLOCKS_MC_MAPPING[tuple(colors[np.where(distances == min(distances))][0])]
+        else:
+            return SOLID_BLOCKS_MC_MAPPING[tuple(colors[np.where(distances == min(distances))][0])]
 
     @commands.command(aliases=['mc'])
     async def minecraft(self, ctx, *, user: discord.Member = None):

@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cogs/memberCommands/userinfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/memberCommands/joindate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/memberCommands/toprole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/ocr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626704057643</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed back to ctx.author.avatar_url and added discord.py=1.7.3">
+      <created>1626706974792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626706974792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +169,7 @@
     <MESSAGE value="Added libgl1-mesa-glx to Aptfile" />
     <MESSAGE value="Added dumb comma I missed" />
     <MESSAGE value="Changed to ctx.message.author.avatar_url instead of ctx.author.avatar_url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to ctx.message.author.avatar_url instead of ctx.author.avatar_url" />
+    <MESSAGE value="Changed back to ctx.author.avatar_url and added discord.py=1.7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed back to ctx.author.avatar_url and added discord.py=1.7.3" />
   </component>
 </project>

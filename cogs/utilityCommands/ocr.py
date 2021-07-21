@@ -63,7 +63,6 @@ class Ocr(commands.Cog):
 
     @ocr.error
     async def ocr_error(self, ctx, error):
-        raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
                 description='You need to attach an image.'
