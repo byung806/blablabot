@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626828347671</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added os.listdir in error handling">
+      <created>1626828939916</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626828939916</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,6 +205,7 @@
     <MESSAGE value="changed import in minecraft.py to cogs.utilityCommands.solid_blocks.aa_mc_mapping." />
     <MESSAGE value="changed import in minecraft.py to cogs.utilityCommands.solid_blocks.aa_mc_mapping. and actually added aa_mc_mapping.py this time" />
     <MESSAGE value="now raises error in minecraft.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="now raises error in minecraft.py" />
+    <MESSAGE value="added os.listdir in error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added os.listdir in error handling" />
   </component>
 </project>

@@ -1,5 +1,4 @@
 import io
-import os
 
 import numpy as np
 from PIL import Image
@@ -65,8 +64,6 @@ class Minecraft(commands.Cog):
 
     @minecraft.error
     async def mc_error(self, ctx, error):
-        print(os.listdir('cogs\\utilityCommands\\solid_blocks'))
-        raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
                 description = 'Please attach an image or mention a user.'
