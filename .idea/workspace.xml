@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" afterDir="false" />
-    </list>
+    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626828939916</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="removed solid_blocks folder">
+      <created>1626890856293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626890856293</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +210,7 @@
     <MESSAGE value="changed import in minecraft.py to cogs.utilityCommands.solid_blocks.aa_mc_mapping. and actually added aa_mc_mapping.py this time" />
     <MESSAGE value="now raises error in minecraft.py" />
     <MESSAGE value="added os.listdir in error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added os.listdir in error handling" />
+    <MESSAGE value="removed solid_blocks folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed solid_blocks folder" />
   </component>
 </project>
