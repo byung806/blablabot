@@ -64,6 +64,7 @@ class Minecraft(commands.Cog):
 
     @minecraft.error
     async def mc_error(self, ctx, error):
+        raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
                 description = 'Please attach an image or mention a user.'
