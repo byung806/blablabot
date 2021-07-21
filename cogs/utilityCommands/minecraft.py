@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 import requests
 
-from cogs.utilityCommands.all_blocks.aa_mc_mapping import SOLID_BLOCKS_MC_MAPPING, ALL_BLOCKS_MC_MAPPING
+from cogs.utilityCommands.solid_blocks.aa_mc_mapping import SOLID_BLOCKS_MC_MAPPING, ALL_BLOCKS_MC_MAPPING
 
 # IDEAS
 # find song from youtube from video segment
