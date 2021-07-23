@@ -4,15 +4,11 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 import requests
-
-from cogs.utilityCommands.solid_blocks.aa_mc_mapping import SOLID_BLOCKS_MC_MAPPING, ALL_BLOCKS_MC_MAPPING
-
-# IDEAS
-# find song from youtube from video segment
-# make an image transparent with specified color
-
 import discord
 from discord.ext import commands
+
+
+from cogs.utilityCommands.solid_blocks.aa_mc_mapping import SOLID_BLOCKS_MC_MAPPING, ALL_BLOCKS_MC_MAPPING
 
 class Minecraft(commands.Cog):
     def __init__(self, bot):
@@ -64,6 +60,7 @@ class Minecraft(commands.Cog):
 
     @minecraft.error
     async def mc_error(self, ctx, error):
+        print(__file__)
         raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
