@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" afterDir="false" />
-    </list>
+    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627072606762</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added __file__">
+      <created>1627073395846</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627073395846</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,6 +258,7 @@
     <MESSAGE value="raises error in minecraft" />
     <MESSAGE value="added /app maybe it works probably not" />
     <MESSAGE value="removed type from .format in minecraft.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed type from .format in minecraft.py" />
+    <MESSAGE value="added __file__" />
+    <option name="LAST_COMMIT_MESSAGE" value="added __file__" />
   </component>
 </project>
