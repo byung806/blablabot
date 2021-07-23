@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627073395846</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added /app">
+      <created>1627073762551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627073762551</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +266,7 @@
     <MESSAGE value="added /app maybe it works probably not" />
     <MESSAGE value="removed type from .format in minecraft.py" />
     <MESSAGE value="added __file__" />
-    <option name="LAST_COMMIT_MESSAGE" value="added __file__" />
+    <MESSAGE value="added /app" />
+    <option name="LAST_COMMIT_MESSAGE" value="added /app" />
   </component>
 </project>

@@ -60,11 +60,9 @@ class Minecraft(commands.Cog):
 
     @minecraft.error
     async def mc_error(self, ctx, error):
-        print(__file__)
-        raise error
         if isinstance(error, discord.ext.commands.errors.CommandInvokeError):
             embed = discord.Embed(
-                description = 'Please attach an image or mention a user.'
+                description = 'Something went wrong.'
             ).set_author(name = ctx.message.author.name, icon_url=ctx.author.avatar_url)
             await ctx.message.channel.send(embed=embed)
         else:
