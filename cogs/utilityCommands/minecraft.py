@@ -55,7 +55,7 @@ class Minecraft(commands.Cog):
                         color = np.array(img.getpixel((x, y)))
                         block_name = self.get_closest_block(color, colors, type)
                         result = result.convert('RGBA')
-                        result.paste(Image.open('~/app/cogs/utilityCommands/solid_blocks/{}'.format(type, block_name)), (x*16,y*16))
+                        result.paste(Image.open('cogs\\utilityCommands\\solid_blocks\\{}'.format(block_name)), (x*16,y*16))
 
             with io.BytesIO() as image_binary:
                 result.save(image_binary, 'PNG')
