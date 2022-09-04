@@ -5,21 +5,17 @@ from discord.ext import commands
 
 
 class Calculate(commands.Cog):
+    '''
+    Calculate a math expression.
+    Usage:
+    `<prefix> calculate`
+    '''
+
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(aliases = ['calc'])
-    async def calculate(self, ctx, *, message=None):
-        if message == None:
-            description = 'What are you trying to calculate? You need to put an expression so I can calculate it.'
-            title = 'What are you thinking??'
-            embed = discord.Embed(
-                title=title,
-                description=description,
-                colour=discord.Colour.red()
-            )
-            await ctx.message.channel.send(embed=embed)
-            return
+    async def calculate(self, ctx, *, message):
         try:
             result = eval(message)
             description = f'**Your input:** `{message}`'
@@ -42,7 +38,7 @@ class Calculate(commands.Cog):
             ).set_author(name=f'{ctx.message.author.name}\'s calculator')
             await ctx.message.channel.send(embed=embed)
 
-    """"@calculate.error
+    @calculate.error
     async def calc_error(self, ctx, error):
         if isinstance(error, SyntaxError) or isinstance(error, commands.CommandInvokeError):
             description = 'What are you trying to calculate? You need to put a valid expression so I can calculate it.'
@@ -54,7 +50,7 @@ class Calculate(commands.Cog):
             )
             await ctx.message.channel.send(embed=embed)
         else:
-            raise error"""
+            raise error
 
 def setup(bot):
     bot.add_cog(Calculate(bot))

@@ -2,6 +2,12 @@ import discord
 from discord.ext import commands
 
 class UserInfo(commands.Cog):
+    '''
+    Print someone's user info.
+    Usage:
+    `<prefix> userinfo [member]`
+    '''
+
     def __init__(self, bot):
         self.bot = bot
 

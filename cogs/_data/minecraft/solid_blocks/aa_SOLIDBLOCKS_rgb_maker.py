@@ -27,7 +27,7 @@ def average(img):
 
 #rewrite so it accepts rgba and it gets average for r, g, b, and also a as well
 
-for name in os.listdir(r'C:\Users\byung\PycharmProjects\DiscordBot\cogs\utilityCommands\solid_blocks'):
+for name in os.listdir(r'/cogs/_data/minecraft/solid_blocks'):
     if name != 'aa_SOLIDBLOCKS_rgb_maker.py' and name != 'aa_mc_mapping.py':
         if name.endswith('.mcmeta'):
             os.remove(name)

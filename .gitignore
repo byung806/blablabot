@@ -6,4 +6,5 @@ cogs/miscCommands/__pycache__
 cogs/modCommands/__pycache__
 cogs/textCommands/__pycache__
 cogs/utilityCommands/__pycache__
-cogs/utilityCommands/all_blocks
+cogs/_data/minecraft/all_blocks
+.idea

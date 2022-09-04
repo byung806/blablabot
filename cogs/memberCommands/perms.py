@@ -2,6 +2,12 @@ import discord
 from discord.ext import commands
 
 class Perms(commands.Cog):
+    '''
+    Check the permissions of someone.
+    Usage:
+    `<prefix> check_permissions [member]`
+    '''
+
     def __init__(self,bot):
         self.bot = bot
 

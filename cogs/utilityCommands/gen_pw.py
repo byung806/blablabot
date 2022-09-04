@@ -1,14 +1,21 @@
-import discord
 from random import randint
 from random import choice
 from discord.ext import commands
 
-class PassMaker(commands.Cog):
+from utils import send_embed, get_server_prefix
+
+
+class Gen_Pw(commands.Cog):
+    '''
+    Generate a random password.
+    Usage:
+    `<prefix> gen_pw [length] [characters]`
+    '''
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(aliases = ['generate_pass', 'generate_password', 'genpw', 'genpass'])
-    async def gen_pw(self, ctx, length=None, chars=None):
+    async def gen_pw(self, ctx, length=None, chars=None, *, content=None):
         if not length:
             length = randint(6,12)
         if chars:
@@ -19,21 +26,15 @@ class PassMaker(commands.Cog):
         for _ in range(int(length)):
             pw += choice(possible)
 
-        embed = discord.Embed(
-            description=pw,
-            colour=discord.Colour.blurple()
-        ).set_author(name='Generated password', icon_url=ctx.author.avatar_url)
-        await ctx.message.channel.send(embed=embed)
+        await send_embed(ctx, 'Generated password', pw)
 
     @gen_pw.error
     async def gen_pw_error(self, ctx, error):
         if isinstance(error, ValueError):
-            embed = discord.Embed(
-                description='You need to provide a valid number.'
-            ).set_author(name=ctx.message.author, icon_url=ctx.author.avatar_url)
-            await ctx.message.channel.send(embed=embed)
+            await send_embed(ctx, 'Invalid usage', f'Use `{get_server_prefix(self.bot, ctx)}genpw '
+                                                   f'[length] [possible characters]`')
         else:
             raise error
 
 def setup(bot):
-    bot.add_cog(PassMaker(bot))
+    bot.add_cog(Gen_Pw(bot))

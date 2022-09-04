@@ -3,6 +3,11 @@ from discord.ext import commands
 
 
 class Emojify(commands.Cog):
+    '''
+    Emojify some text!
+    Usage:
+    `<prefix> emojify <text>`
+    '''
     def __init__(self, bot):
         self.bot = bot
 
@@ -10,7 +15,7 @@ class Emojify(commands.Cog):
     async def emojify(self, ctx, *, message=None):
         if message==None:
             description = 'What are you trying to emojify?'
-            title = 'What are you thinking??'
+            title = 'Invalid usage'
             embed = discord.Embed(
                 title=title,
                 description=description,

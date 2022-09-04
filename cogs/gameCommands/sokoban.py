@@ -13,6 +13,11 @@ connection = mysql.connector.connect(
 
 
 class Sokoban(commands.Cog):
+    '''
+    Play sokoban.
+    Usage:
+    `<prefix> sokoban [start | stop | info]`
+    '''
     def __init__(self, bot):
         self.bot = bot
 

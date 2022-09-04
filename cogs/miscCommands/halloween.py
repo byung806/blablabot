@@ -4,17 +4,25 @@ from random import randint
 from random import choice
 from discord.ext import commands
 
+from utils import get_server_prefix
+
+
 class Halloween(commands.Cog):
+    '''
+    OOooooOooOooO
+    Usage:
+    `<prefix> halloween`
+    '''
     def __init__(self,bot):
         self.bot = bot
 
     @commands.command()
-    async def halloween(self, ctx):
-        global description
+    async def halloween(self, ctx, *, content=None):
+        description = ''
         month = datetime.now().month
         if month != 10:
-            description = """It\'s not spooky enough yet!
-            \n`bla halloween` only works in October."""
+            description = f"""It\'s not spooky enough yet!
+            \n`{await get_server_prefix(self.bot, ctx)}halloween` only works in October."""
             embed = discord.Embed(
                 title='In your dreams...',
                 description=description,

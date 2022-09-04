@@ -1,7 +1,555 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="" />
+    <list default="true" id="f3db03bb-0f5e-42ce-9474-8189802482d0" name="Default Changelist" comment="minecraft.py command fixed&#10;a stable version">
+      <change afterPath="$PROJECT_DIR$/cogs/_data/prefixes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cogs/miscCommands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/beg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/deposit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/gamble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/give.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/inventory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/mine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/slots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/currencyCommands/withdraw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/funCommands/simprate.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/funCommands/simprate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/gameCommands/coinflip.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/gameCommands/coinflip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/gameCommands/sokoban.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/gameCommands/sokoban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/memberCommands/perms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/memberCommands/perms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/memberCommands/userinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/memberCommands/userinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/miscCommands/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/miscCommands/calculate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/miscCommands/choose.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/miscCommands/choose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/miscCommands/halloween.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/miscCommands/halloween.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/miscCommands/saves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/ban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/kick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/mute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/unban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/unmute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/modCommands/warn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/colors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/textCommands/emojify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/textCommands/emojify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/minecraft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/pass_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/gen_pw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/random_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/utilityCommands/random_num.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/aa_SOLIDBLOCKS_rgb_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/aa_SOLIDBLOCKS_rgb_maker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/aa_mc_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/aa_mc_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/acacia_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/acacia_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/acacia_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/acacia_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/acacia_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/acacia_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/air.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/air.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/amethyst_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/amethyst_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/ancient_debris_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/ancient_debris_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/ancient_debris_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/ancient_debris_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/andesite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/andesite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/anvil.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/anvil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/azalea_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/azalea_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bamboo_stalk.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bamboo_stalk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/barrel_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/barrel_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/barrel_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/barrel_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/barrel_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/barrel_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/barrel_top_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/barrel_top_open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/basalt_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/basalt_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/basalt_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/basalt_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/beacon.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/beacon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bedrock.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bedrock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bee_nest_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bee_nest_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bee_nest_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bee_nest_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bee_nest_front_honey.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bee_nest_front_honey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bee_nest_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bee_nest_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bee_nest_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bee_nest_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/beehive_end.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/beehive_end.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/beehive_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/beehive_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/beehive_front_honey.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/beehive_front_honey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/beehive_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/beehive_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_door_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_door_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/birch_trapdoor.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/birch_trapdoor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/black_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/black_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blackstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blackstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blackstone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blackstone_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blast_furnace_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blast_furnace_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blast_furnace_front_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blast_furnace_front_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blast_furnace_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blast_furnace_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blast_furnace_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blast_furnace_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/blue_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/blue_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bone_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bone_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bone_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bone_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bookshelf.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bookshelf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brain_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brain_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brewing_stand_base.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brewing_stand_base.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_mushroom_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_mushroom_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/brown_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/brown_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/bubble_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/bubble_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/budding_amethyst.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/budding_amethyst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/calcite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/calcite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/campfire_log_lit.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/campfire_log_lit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cartography_table_side1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cartography_table_side1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cartography_table_side2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cartography_table_side2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cartography_table_side3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cartography_table_side3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cartography_table_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cartography_table_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/carved_pumpkin.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/carved_pumpkin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cauldron_inner.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cauldron_inner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cauldron_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cauldron_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chain_command_block_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chain_command_block_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chain_command_block_conditional.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chain_command_block_conditional.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chain_command_block_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chain_command_block_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chain_command_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chain_command_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_deepslate.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_deepslate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_nether_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_nether_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_polished_blackstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_polished_blackstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_quartz_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_quartz_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_quartz_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_quartz_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_red_sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_red_sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chiseled_stone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chiseled_stone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chorus_flower.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chorus_flower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chorus_flower_dead.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chorus_flower_dead.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/chorus_plant.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/chorus_plant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/clay.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/clay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/coal_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/coal_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/coal_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/coal_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/coarse_dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/coarse_dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cobbled_deepslate.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cobbled_deepslate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cobblestone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cobblestone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/command_block_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/command_block_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/command_block_conditional.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/command_block_conditional.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/command_block_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/command_block_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/command_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/command_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/comparator.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/comparator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/comparator_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/comparator_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/composter_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/composter_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/composter_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/composter_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/copper_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/copper_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/copper_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/copper_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cracked_deepslate_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cracked_deepslate_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cracked_deepslate_tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cracked_deepslate_tiles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cracked_nether_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cracked_nether_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cracked_polished_blackstone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cracked_polished_blackstone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cracked_stone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cracked_stone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crafting_table_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crafting_table_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crafting_table_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crafting_table_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crafting_table_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crafting_table_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_door_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_door_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_nylium.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_nylium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_nylium_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_nylium_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_stem.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_stem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crimson_stem_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crimson_stem_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/crying_obsidian.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/crying_obsidian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cut_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cut_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cut_red_sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cut_red_sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cut_sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cut_sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/cyan_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/cyan_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_door_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_door_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_oak_trapdoor.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_oak_trapdoor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dark_prismarine.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dark_prismarine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/daylight_detector_inverted_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/daylight_detector_inverted_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/daylight_detector_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/daylight_detector_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/daylight_detector_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/daylight_detector_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dead_brain_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dead_brain_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dead_bubble_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dead_bubble_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dead_fire_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dead_fire_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dead_horn_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dead_horn_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dead_tube_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dead_tube_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/debug.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/debug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/debug2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/debug2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_coal_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_coal_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_copper_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_copper_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_diamond_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_diamond_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_emerald_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_emerald_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_gold_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_gold_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_iron_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_iron_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_lapis_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_lapis_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_redstone_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_redstone_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_tiles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/deepslate_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/deepslate_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/diamond_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/diamond_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/diamond_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/diamond_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/diorite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/diorite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dirt_path_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dirt_path_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dispenser_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dispenser_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dispenser_front_vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dispenser_front_vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dragon_egg.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dragon_egg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dried_kelp_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dried_kelp_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dried_kelp_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dried_kelp_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dried_kelp_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dried_kelp_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dripstone_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dripstone_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dropper_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dropper_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/dropper_front_vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/dropper_front_vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/emerald_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/emerald_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/emerald_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/emerald_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/enchanting_table_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/enchanting_table_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/enchanting_table_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/enchanting_table_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/end_portal_frame_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/end_portal_frame_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/end_stone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/end_stone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/end_stone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/end_stone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/exposed_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/exposed_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/exposed_cut_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/exposed_cut_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/farmland.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/farmland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/farmland_moist.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/farmland_moist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/fire_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/fire_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/fletching_table_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/fletching_table_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/fletching_table_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/fletching_table_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/fletching_table_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/fletching_table_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/flowering_azalea_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/flowering_azalea_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/frosted_ice_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/frosted_ice_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/frosted_ice_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/frosted_ice_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/frosted_ice_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/frosted_ice_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/frosted_ice_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/frosted_ice_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/furnace_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/furnace_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/furnace_front_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/furnace_front_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/furnace_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/furnace_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/furnace_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/furnace_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gilded_blackstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gilded_blackstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/glow_item_frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/glow_item_frame.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/glowstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/glowstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gold_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gold_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gold_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gold_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/granite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/granite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/grass_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/grass_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/grass_block_snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/grass_block_snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/grass_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/grass_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gravel.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gravel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/gray_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/gray_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/green_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/green_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/hay_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/hay_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/hay_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/hay_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/honey_block_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/honey_block_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/honey_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/honey_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/honey_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/honey_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/honeycomb_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/honeycomb_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/hopper_inside.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/hopper_inside.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/hopper_outside.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/hopper_outside.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/horn_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/horn_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/iron_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/iron_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/iron_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/iron_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/iron_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/iron_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/item_frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/item_frame.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jack_o_lantern.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jack_o_lantern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jigsaw_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jigsaw_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jigsaw_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jigsaw_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jigsaw_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jigsaw_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jigsaw_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jigsaw_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jukebox_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jukebox_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jukebox_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jukebox_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jungle_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jungle_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jungle_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jungle_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jungle_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jungle_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/jungle_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/jungle_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lapis_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lapis_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lapis_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lapis_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lava_flow.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lava_flow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lava_still.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lava_still.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lectern_base.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lectern_base.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lectern_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lectern_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lectern_sides.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lectern_sides.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lectern_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lectern_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_blue_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_blue_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/light_gray_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/light_gray_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lightning_rod_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lightning_rod_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lime_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lime_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lodestone_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lodestone_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/lodestone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/lodestone_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/loom_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/loom_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/loom_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/loom_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/loom_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/loom_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/loom_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/loom_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magenta_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magenta_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/magma.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/magma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/melon_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/melon_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/melon_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/melon_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/moss_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/moss_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mossy_cobblestone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mossy_cobblestone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mossy_stone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mossy_stone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mushroom_block_inside.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mushroom_block_inside.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mushroom_stem.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mushroom_stem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mycelium_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mycelium_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/mycelium_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/mycelium_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/nether_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/nether_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/nether_gold_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/nether_gold_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/nether_portal.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/nether_portal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/nether_quartz_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/nether_quartz_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/nether_wart_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/nether_wart_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/netherite_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/netherite_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/netherrack.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/netherrack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/note_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/note_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oak_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oak_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oak_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oak_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oak_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oak_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oak_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oak_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/observer_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/observer_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/observer_back_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/observer_back_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/observer_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/observer_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/observer_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/observer_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/observer_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/observer_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/obsidian.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/obsidian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/orange_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/orange_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oxidized_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oxidized_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/oxidized_cut_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/oxidized_cut_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/packed_ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/packed_ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pink_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pink_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/piston_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/piston_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/piston_inner.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/piston_inner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/piston_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/piston_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/piston_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/piston_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/piston_top_sticky.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/piston_top_sticky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/podzol_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/podzol_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/podzol_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/podzol_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_andesite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_andesite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_basalt_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_basalt_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_basalt_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_basalt_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_blackstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_blackstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_blackstone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_blackstone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_deepslate.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_deepslate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_diorite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_diorite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/polished_granite.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/polished_granite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/powder_snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/powder_snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/prismarine.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/prismarine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/prismarine_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/prismarine_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pumpkin_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pumpkin_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/pumpkin_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/pumpkin_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purple_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purple_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purpur_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purpur_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purpur_pillar.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purpur_pillar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/purpur_pillar_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/purpur_pillar_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_block_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_block_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_block_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_block_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_pillar.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_pillar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/quartz_pillar_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/quartz_pillar_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/raw_copper_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/raw_copper_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/raw_gold_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/raw_gold_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/raw_iron_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/raw_iron_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_mushroom_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_mushroom_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_nether_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_nether_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_sand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_sandstone_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_sandstone_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_sandstone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_sandstone_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/red_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/red_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/redstone_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/redstone_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/redstone_lamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/redstone_lamp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/redstone_lamp_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/redstone_lamp_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/redstone_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/redstone_ore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeater.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeater.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeater_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeater_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeating_command_block_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeating_command_block_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeating_command_block_conditional.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeating_command_block_conditional.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeating_command_block_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeating_command_block_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/repeating_command_block_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/repeating_command_block_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_side0.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_side0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_side1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_side1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_side2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_side2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_side3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_side3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_side4.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_side4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/respawn_anchor_top_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/respawn_anchor_top_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/rooted_dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/rooted_dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sandstone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sandstone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sandstone_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sandstone_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sandstone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sandstone_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sculk_sensor_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sculk_sensor_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sculk_sensor_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sculk_sensor_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sea_lantern.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sea_lantern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/shroomlight.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/shroomlight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/slime_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/slime_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smithing_table_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smithing_table_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smithing_table_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smithing_table_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smithing_table_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smithing_table_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smithing_table_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smithing_table_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smoker_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smoker_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smoker_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smoker_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smoker_front_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smoker_front_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smoker_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smoker_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smoker_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smoker_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smooth_basalt.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smooth_basalt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smooth_stone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smooth_stone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/smooth_stone_slab_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/smooth_stone_slab_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/soul_campfire_log_lit.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/soul_campfire_log_lit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/soul_sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/soul_sand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/soul_soil.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/soul_soil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/sponge.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/sponge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_door_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_door_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/spruce_trapdoor.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/spruce_trapdoor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stone.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stone_bricks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stone_bricks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stonecutter_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stonecutter_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stonecutter_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stonecutter_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_acacia_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_acacia_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_acacia_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_acacia_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_birch_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_birch_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_birch_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_birch_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_crimson_stem.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_crimson_stem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_crimson_stem_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_crimson_stem_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_dark_oak_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_dark_oak_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_dark_oak_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_dark_oak_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_jungle_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_jungle_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_jungle_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_jungle_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_oak_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_oak_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_oak_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_oak_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_spruce_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_spruce_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_spruce_log_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_spruce_log_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_warped_stem.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_warped_stem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/stripped_warped_stem_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/stripped_warped_stem_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/structure_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/structure_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/structure_block_corner.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/structure_block_corner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/structure_block_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/structure_block_data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/structure_block_load.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/structure_block_load.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/structure_block_save.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/structure_block_save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/target_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/target_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/target_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/target_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tinted_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tinted_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tnt_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tnt_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tnt_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tnt_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tnt_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tnt_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tube_coral_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tube_coral_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/tuff.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/tuff.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_door_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_door_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_door_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_door_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_nylium.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_nylium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_nylium_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_nylium_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_planks.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_planks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_stem.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_stem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_stem_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_stem_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/warped_wart_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/warped_wart_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/water_flow.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/water_flow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/water_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/water_overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/water_still.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/water_still.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/weathered_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/weathered_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/weathered_cut_copper.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/weathered_cut_copper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/wet_sponge.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/wet_sponge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/white_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/white_wool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_concrete_powder.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_concrete_powder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_glazed_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_glazed_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_shulker_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_shulker_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_stained_glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_stained_glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_terracotta.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_terracotta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/utilityCommands/solid_blocks/yellow_wool.png" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/_data/minecraft/solid_blocks/yellow_wool.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +578,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Todobot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Personal" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -39,23 +587,26 @@
       <recent name="C:\Users\byung\PycharmProjects\DiscordBot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\byung\PycharmProjects\DiscordBot\cogs" />
+      <recent name="C:\Users\byung\PycharmProjects\DiscordBot" />
+      <recent name="C:\Users\byung\PycharmProjects\DiscordBot\app" />
+      <recent name="C:\Users\byung\PycharmProjects\DiscordBot\cogs\_data\minecraft" />
       <recent name="C:\Users\byung\PycharmProjects\DiscordBot\cogs\utilityCommands\solid_blocks" />
-      <recent name="C:\Users\byung\PycharmProjects\DiscordBot\cogs\utilityCommands\tesseract" />
     </key>
   </component>
   <component name="RunManager" selected="Python.bot">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DiscordBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\byung\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -242,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627073762551</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="minecraft.py command fixed&#10;a stable version">
+      <created>1627074093412</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1627074093412</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +825,7 @@
     <MESSAGE value="removed type from .format in minecraft.py" />
     <MESSAGE value="added __file__" />
     <MESSAGE value="added /app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added /app" />
+    <MESSAGE value="minecraft.py command fixed&#10;a stable version" />
+    <option name="LAST_COMMIT_MESSAGE" value="minecraft.py command fixed&#10;a stable version" />
   </component>
 </project>
